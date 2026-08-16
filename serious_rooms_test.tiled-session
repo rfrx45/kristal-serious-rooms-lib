@@ -1,0 +1,84 @@
+{
+    "activeFile": "scripts/world/maps/room1.tmx",
+    "expandedProjectPaths": [
+        "scripts/world",
+        "scripts/world/maps"
+    ],
+    "fileStates": {
+        "D:/Raad Desk/GAMES/Undertale/Game files + fan games/Deltarune Engine/KristalFork/Kristal/mods/sssdfg/scripts/world/maps/platform_test.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1851,
+                "y": 487.5
+            }
+        },
+        "D:/Raad Desk/GAMES/Undertale/Game files + fan games/Deltarune Engine/KristalFork/Kristal/mods/sssdfg/scripts/world/tilesets/castle.tsx": {
+            "scaleInDock": 1
+        },
+        "D:/Raad Desk/GAMES/Undertale/Game files + fan games/Deltarune Engine/KristalFork/Kristal/mods/testt/scripts/world/maps/room1.tmx": {
+            "scale": 0.569280303030303,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 537.5207931332757,
+                "y": 714.0594849956752
+            }
+        },
+        "D:/Raad Desk/GAMES/Undertale/Game files + fan games/Deltarune Engine/KristalFork/Kristal/mods/testt/scripts/world/tilesets/castle.tsx": {
+            "scaleInDock": 1
+        },
+        "scripts/world/maps/climbing.tmx": {
+            "scale": 8,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 823.375,
+                "y": 539.8125
+            }
+        },
+        "scripts/world/maps/room1.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 497.3333333333333,
+                "y": 566
+            }
+        },
+        "scripts/world/maps/room2.tmx": {
+            "scale": 0.9666250000000001,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 400.36208457261085,
+                "y": 239.4930815983448
+            }
+        },
+        "scripts/world/maps/voidclimb.tmx": {
+            "scale": 0.6752916666666666,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 540.5071882519899,
+                "y": 600.4812735237861
+            }
+        },
+        "scripts/world/tilesets/castle.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "D:/Raad Desk/GAMES/Undertale/Game files + fan games/Deltarune Engine/KristalFork/Kristal/mods/sssdfg/scripts/world/maps",
+    "loadedWorlds": [
+        "D:/Raad Desk/GAMES/Undertale/Game files + fan games/Deltarune Engine/KristalFork/Kristal/mods/example/scripts/world/example.world"
+    ],
+    "map.lastUsedExportFilter": "All Files (*)",
+    "openFiles": [
+        "scripts/world/maps/room1.tmx"
+    ],
+    "project": "example.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "scripts/world/maps/room1.tmx",
+        "D:/Raad Desk/GAMES/Undertale/Game files + fan games/Deltarune Engine/KristalFork/Kristal/mods/testt/scripts/world/maps/room1.tmx",
+        "scripts/world/maps/voidclimb.tmx",
+        "scripts/world/maps/room2.tmx",
+        "scripts/world/maps/climbing.tmx",
+        "D:/Raad Desk/GAMES/Undertale/Game files + fan games/Deltarune Engine/KristalFork/Kristal/mods/sssdfg/scripts/world/maps/platform_test.tmx"
+    ]
+}

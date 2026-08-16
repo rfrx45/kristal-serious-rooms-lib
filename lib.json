@@ -1,0 +1,14 @@
+{
+    "id": "serious_rooms",
+    
+    "version": "v1.0.0",
+    "engineVer": "v0.11.0-dev",
+    
+    "authors": [
+        "rfrx"
+    ],
+	
+    "config": {
+
+	}
+}

@@ -4,7 +4,6 @@ local Map, super = HookSystem.hookScript(Map)
 function Map:onEnter()
     super.onEnter(self)
     if SERIOUS_LIB.loaded then
-        Kristal.Console:log("FUCK")
         if self.data.properties["serious"] then
             for i, v in ipairs(Game.party) do
                 local actorobj = Game.world:getCharacter(tostring(string.lower(v.name)))

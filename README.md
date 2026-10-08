@@ -15,7 +15,7 @@ To make a room "Serious":
 
 * Add `self.serious_path = "(your serious walk sprites folder)"` and `serious_sprites = true` to your actor(s)' init.
 
-> [!INFO]
+> [!NOTE]
 > The `serious_path` should be a folder in the same directory as your `walk` folder.
 > By default, Susie and Ralsei's "Serious" walking sprites are named `walk_unhappy`.
 

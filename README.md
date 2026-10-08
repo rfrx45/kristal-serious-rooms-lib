@@ -15,6 +15,18 @@ To make a room "Serious":
 
 * Add `self.serious_path = "(your serious walk sprites folder)"` and `serious_sprites = true` to your actor(s)' init.
 
-The `serious_path` should be a folder in the same directory as your `walk` folder.
+> [!INFO]
+> The `serious_path` should be a folder in the same directory as your `walk` folder.
+> By default, Susie and Ralsei's "Serious" walking sprites are named `walk_unhappy`.
 
-By default, Susie and Ralsei's "Serious" walking sprites are named `walk_unhappy`.
+
+To make a room only make specific party members have **serious sprites**:
+* Add a **list** `serious_members` property to your map in Tiled.
+> [!WARNING]
+> The **LIST** property is only available in Tiled 1.12 and later.
+
+* Add the names of the members that you want to give serious sprites to in the property.make sure you type in their IDs and not their names.
+
+
+
+Have fun!

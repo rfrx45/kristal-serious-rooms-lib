@@ -1,11 +1,14 @@
 # Serious Rooms
 Serious Rooms is a [Kristal](https://kristal.cc) library that adds the ability to make certain rooms let your party members have **Serious** (Also known as **Unhappy**) walking sprites!
 
+It also gives you the ability to make your party members be **serious** in battles too!
+
 
 <img width="1152" height="864" alt="1786855361-114 33333333333" src="https://github.com/user-attachments/assets/55ee14e6-e78d-47d5-930a-0618c12e5658" />
 
 
-# Usage
+
+# Making A room "Serious"
 To make a room "Serious":
 * Add a boolean `serious` property to your map in Tiled and check it.
 > [!WARNING]
@@ -13,7 +16,7 @@ To make a room "Serious":
 
 
 
-* Add `self.serious_path = "(your serious walk sprites folder)"` and `serious_sprites = true` to your actor(s)' init.
+* Add `self.serious_path = "(your serious walk sprites folder)"` and `serious_sprites = true` to your actor(s)' `init`.
 
 > [!NOTE]
 > The `serious_path` should be a folder in the same directory as your `walk` folder.
@@ -25,7 +28,22 @@ To make a room only make specific party members have **serious sprites**:
 > [!WARNING]
 > The **LIST** property is only available in Tiled 1.12 and later.
 
-* Add the names of the members that you want to give serious sprites to in the property.make sure you type in their IDs and not their names.
+* Put the IDs of the members that you want to give serious sprites to in the property.
+
+
+# Making a battle "Serious"
+To make a battle "Serious":
+* Add `self.serious = true` to your encounter file's `init`.
+
+* Add `self.serious_battle_path = "(your serious battle animation)"`
+> [!NOTE]
+> Don't forget to add your serious animation to your actor's `animations` table, and adjust its offset in `offsets` if needed!
+
+
+
+To make an encounter only make specific party members have **serious idles**:
+* Add `self.serious_members = {"(Party member ID)"}` to your encounter file's `init`.
+* Put the IDs of the members that you want to give serious idles to in the table.
 
 
 

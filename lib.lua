@@ -27,6 +27,7 @@ function lib:applySeriousSprites()
 end
 function lib:postLoad()
     self.loaded = true
-    lib:applySeriousSprites()
+    if SERIOUS_LIB.firstRoom then SERIOUS_LIB.firstRoom = false
+    else lib:applySeriousSprites() end
 end
 return lib

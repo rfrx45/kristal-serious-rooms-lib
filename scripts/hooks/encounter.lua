@@ -7,4 +7,5 @@ function Encounter:init()
     self.serious_members = nil
 end
 
+
 return Encounter

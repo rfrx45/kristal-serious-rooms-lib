@@ -8,8 +8,4 @@ function Actor:init()
     self.serious_sprites = false
 end
 
-function Actor:test(text)
-    Kristal.Console:log(text)
-end
-
 return Actor

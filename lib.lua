@@ -1,10 +1,6 @@
 SERIOUS_LIB = {}
 local lib = SERIOUS_LIB
 
-function lib:preInit()
-    self.firstRoom = true
-end
-
 function lib:applySeriousSprites()
     if Game.world.map.data.properties["serious"] then
         local member_tbl_property = Game.world.map.data.properties["serious_members"]
@@ -25,9 +21,5 @@ function lib:applySeriousSprites()
         end
     end
 end
-function lib:postLoad()
-    self.loaded = true
-    if SERIOUS_LIB.firstRoom then SERIOUS_LIB.firstRoom = false
-    else lib:applySeriousSprites() end
-end
+
 return lib
